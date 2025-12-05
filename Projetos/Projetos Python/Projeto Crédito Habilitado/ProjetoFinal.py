@@ -11,10 +11,10 @@ def resource_path(relative_path):
 
 
 conexao = mysql.connector.connect(
-    host='127.0.0.1',
-    user='dev',
-    password='9584',
-    database='cadastro_credito'
+    host='SeuHost',
+    user='SeuUser',
+    password='SeuPassword',
+    database='SeuDatabase'
 )
 
 
@@ -350,6 +350,7 @@ cadastro.txtAnalise.returnPressed.connect(
 cadastro.show()             
 
 app.exec()                      
+
 
 
 
